@@ -1,5 +1,3 @@
-function paraClicked(){
-    document.getElementById("abc").setAttribute("style","color:yellow");
-}
-
-document.getElementById("abc").addEventListener("click".paraClicked);
+var anyString="Edureca";
+var anyString1=anyString.substring(anyString.length-3);
+console.log(anyString1);

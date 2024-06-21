@@ -13,7 +13,10 @@ const persion{
     firstname:"Dinanath",
     lastname:"Bankira"
 };
+
+
 <hr>
+
 ## JavaScript Strings
 A string (or a text string) is a series of characters like "John Doe".
 

@@ -6,15 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>JavaScript Assinment Opreater</h1>
-    <h2>Left shift Assingment</h2>
-    <h3>The **= Oprater</h3>
-    <p id="demo"></p>
-
+<p id="demo"></p>
     <script>
-        let x=-100;
-        x>>=6;
-        document.getElementById("demo").innerHTML="Value of x is: "+x;
+        const persion={   
+     firstName:"Dinanath",
+      lastname:"Bankira",
+     age:24,
+     fullName:function () {
+        return this.firstName+" "+this.lastname;
+    }
+    
+}
+document.getElementById("demo").innerHTML=persion.fullName();
     </script>
 </body>
 </html>
